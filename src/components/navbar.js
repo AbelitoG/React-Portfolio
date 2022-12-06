@@ -1,19 +1,4 @@
-
 import React, { useState } from 'react';
-// import {
-//   Collapse,
-//   Navbar,
-//   NavbarToggler,
-//   NavbarBrand,
-//   Nav,
-//   NavItem,
-//   NavLink,
-//   UncontrolledDropdown,
-//   DropdownToggle,
-//   DropdownMenu,
-//   DropdownItem,
-//   NavbarText,
-// } from 'reactstrap';
 
 
 
@@ -35,30 +20,6 @@ const Navigation = (props) => {
 
 
   return (
-    //     <div>
-    //   <Navbar {...args}>
-    //     <NavbarBrand href="/">Abel Gonzales</NavbarBrand>
-    //     <NavbarToggler onClick={toggle} />
-    //     <Collapse isOpen={isOpen} navbar>
-    //       <Nav className="me-auto" navbar>
-    //         <NavItem>
-    //           <NavLink href="#" id = "about" onClick={handleClick}>About Me</NavLink>
-    //         </NavItem>
-    //         <NavItem>
-    //           <NavLink href="#" id = "portfolio" onClick={handleClick}>
-    //             Portfolio
-    //           </NavLink>
-    //         </NavItem>
-    //         <NavItem>
-    //           <NavLink href="#" id = "contact" onClick={handleClick}>
-    //             Contact
-    //           </NavLink>
-    //         </NavItem>
-    //       </Nav>
-    //       <NavbarText>Simple Text</NavbarText>
-    //     </Collapse>
-    //   </Navbar>
-    // </div>
     <div className="navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
@@ -86,10 +47,7 @@ const Navigation = (props) => {
         >Gonzus</a>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-ghost btn-circle">
-        </button>
-        <button className="btn btn-ghost btn-circle">
-        </button>
+      <a className="btn btn-active" href={""} target="_blank" rel="noreferrer">Resume</a>
       </div>
     </div>
 
