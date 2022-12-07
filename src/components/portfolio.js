@@ -1,5 +1,9 @@
 import { Project } from "./subcomponents/projectcard"
 import keepup from "../img/keepup.png"
+import showfinder from "../img/showfinder.png"
+import calender from "../img/calender.png"
+import crowd from "../img/crowd.png"
+import weather from "../img/weather.png"
 
 const Portfolio = () => {
     return (
@@ -13,44 +17,44 @@ const Portfolio = () => {
                         <Project 
                         title={"keepup"}
                         image={keepup}
-                        description={"socialapp"}
+                        description={"Socialapp that you can connect with your friends"}
                         deploylink={"https://keep-up-project-3.herokuapp.com/"}
                         repolink={"https://github.com/Sebascrab/Group-Project-3"}
                         />
                         <Project 
-                        title={"keepup"}
-                        image={""}
-                        description={"socialapp"}
-                        deploylink={""}
-                        repolink={""}
+                        title={"Show Finder"}
+                        image={showfinder}
+                        description={"An app that will find shows and streaming services they play on"}
+                        deploylink={"http://localhost:52330/index.html"}
+                        repolink={"https://github.com/srandall1213/Show-Finder"}
                         />
                         <Project 
-                        title={"keepup"}
-                        image={""}
+                        title={"Crowd CNTRL"}
+                        image={crowd}
                         description={"socialapp"}
-                        deploylink={""}
-                        repolink={""}
+                        deploylink={"https://crowdcntrl.herokuapp.com/"}
+                        repolink={"https://github.com/Sebascrab/Crowd-Cntrl-Group-Project-2"}
                         />
                         <Project 
-                        title={"keepup"}
-                        image={""}
-                        description={"socialapp"}
-                        deploylink={""}
-                        repolink={""}
+                        title={"Calender Project"}
+                        image={calender}
+                        description={"An calander to keep track of the day"}
+                        deploylink={"http://localhost:52330/index.html"}
+                        repolink={"https://github.com/AbelitoG/Calender-Project"}
                         />
                         <Project 
-                        title={"keepup"}
-                        image={""}
-                        description={"socialapp"}
-                        deploylink={""}
-                        repolink={""}
+                        title={"Weather Generator"}
+                        image={weather}
+                        description={"A weather app that will give you todays weather and the 5 day forecast"}
+                        deploylink={"http://localhost:52330/index.html"}
+                        repolink={"https://github.com/AbelitoG/weather-generator"}
                         />
                         <Project 
-                        title={"keepup"}
+                        title={"Employee Tracker"}
                         image={""}
-                        description={"socialapp"}
-                        deploylink={""}
-                        repolink={""}
+                        description={"A place to track employee information"}
+                        deploylink={"https://drive.google.com/file/d/1tyAzgLu9W2q5hWvKXY2n_6ZCqWNT6tKj/view"}
+                        repolink={"https://github.com/AbelitoG/Team-Profile-Generator"}
                         />
                     </div>
                 </div>
