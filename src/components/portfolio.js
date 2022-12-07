@@ -10,8 +10,8 @@ const Portfolio = () => {
         <div className="hero min-h-screen bg-transparent">
             <div className="hero-content text-center">
                 <div>
-                    <h1 className="text-5xl font-bold">Hello there</h1>
-                    <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <h1 className="text-5xl font-bold">Projects</h1>
+                    <p className="py-6">These are some projects and challenges I did while going throught the Coding Bootcamp</p>
                     {/* project card */}
                     <div class="grid lg:grid-cols-3">
                         <Project 
